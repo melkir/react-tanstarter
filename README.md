@@ -52,8 +52,6 @@ We're using **pnpm** by default, but you can modify the scripts in [package.json
 
 These scripts in [package.json](./package.json#L5) use **pnpm** by default, but you can modify them to use your preferred package manager.
 
-- **`auth:generate`** - Regenerate the [auth db schema](./src/lib/db/schema/auth.schema.ts) if you've made changes to your Better Auth [config](./src/lib/auth/index.ts).
-- **`db`** - Run drizzle-kit commands. (e.g. `pnpm db generate` to generate a migration)
 - **`ui`** - The shadcn/ui CLI. (e.g. `pnpm ui add button` to add the button component)
 - **`format`** - Run Ultracite for formatting your code.
 - **`deps`** - Selectively upgrade dependencies via taze.
