@@ -1,0 +1,29 @@
+{
+  "$schema": "https://biomejs.dev/schemas/2.1.2/schema.json",
+  "extends": ["ultracite"],
+  "linter": {
+    "rules": {
+      "style": {
+        "noHeadElement": "off",
+        "useFilenamingConvention": "off",
+        "useBlockStatements": "off"
+      },
+      "suspicious": {
+        "noExplicitAny": "off",
+        "noConsole": "off"
+      },
+      "nursery": {
+        "noShadow": "off"
+      },
+      "correctness": {
+        "noUndeclaredVariables": "off"
+      },
+      "performance": {
+        "noNamespaceImport": "off"
+      }
+    }
+  },
+  "javascript": {
+    "globals": ["createFileRoute"]
+  }
+}
