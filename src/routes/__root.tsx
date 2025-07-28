@@ -40,6 +40,7 @@ export const Route = createRootRouteWithContext<{
     const { user, token } = await context.queryClient.fetchQuery({
       queryKey: ['user'],
       queryFn: ({ signal }) => getUser({ signal }),
+      staleTime: 1000 * 60 * 2, // 2 minutes
     });
 
     // During SSR only (the only time serverHttpClient exists),
