@@ -10,19 +10,19 @@ A minimal starter template for 🏝️ TanStack Start.
 
 ## Getting Started
 
-We're using **pnpm** by default, but you can modify the scripts in [package.json](./package.json) to use your preferred package manager.
+We're using **bun** by default, but you can modify the scripts in [package.json](./package.json) to use your preferred package manager.
 
 1. [Use this template](https://github.com/new?template_name=react-tanstarter&template_owner=dotnize) or clone this repository with gitpick:
 
    ```bash
-   npx gitpick melkir/react-tanstarter myapp
+   bun gitpick melkir/react-tanstarter myapp
    cd myapp
    ```
 
 2. Install dependencies:
 
    ```bash
-   pnpm install
+   bun install
    ```
 
 3. Create a `.env.local` file based on [`.env.local.example`](./.env.local.example).
@@ -30,13 +30,13 @@ We're using **pnpm** by default, but you can modify the scripts in [package.json
 4. Generate the schema to your database with convex:
 
    ```bash
-   pnpm generate
+   bun generate
    ```
 
 5. Run the development server:
 
    ```bash
-   pnpm dev
+   bun dev
    ```
 
    The development server should now be running at [http://localhost:3000](http://localhost:3000).
@@ -50,9 +50,9 @@ We're using **pnpm** by default, but you can modify the scripts in [package.json
 
 #### Scripts
 
-These scripts in [package.json](./package.json#L5) use **pnpm** by default, but you can modify them to use your preferred package manager.
+These scripts in [package.json](./package.json#L5) use **bun** by default, but you can modify them to use your preferred package manager.
 
-- **`ui`** - The shadcn/ui CLI. (e.g. `pnpm ui add button` to add the button component)
+- **`ui`** - The shadcn/ui CLI. (e.g. `bun ui add button` to add the button component)
 - **`format`** - Run Ultracite for formatting your code.
 - **`deps`** - Selectively upgrade dependencies via taze.
 
